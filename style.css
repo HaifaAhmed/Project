@@ -1,0 +1,63 @@
+#nav_bar{
+    list-style: none;
+    
+
+}
+
+
+
+.navbar_options{
+    display: inline-block;
+    margin-left: 100px;
+    
+
+}
+
+body {
+    background-image: url(IMG_4076.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+    
+  }
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   
+
+
+}
+
+h4{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+    
+    
+
+}
+
+p{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+
+.Adventure-Girls{
+
+    width:290px;
+    height:420px;
+    border:2px dash blue;
+
+}
