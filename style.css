@@ -1,47 +1,89 @@
-#nav_bar{
+* {
+    margin:0;
+    padding: 0;
     list-style: none;
-    
+    text-decoration: none;
+    font-family: "Google Sans Regular";
+    box-sizing: border-box;
+}
+header{
 
+    width: 100%;
+    height: 80px;
+    background-color: rgb(97, 150, 165);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+
+}
+.nav-bar ul {
+    display:flex;
+}
+.nav-bar ul li a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+
+}
+
+.nav-bar ul li a:hover{
+    color: black;
+    background: rgb(97, 150, 165);
+}
+
+.nav-bar ul li a.active{
+    color: black;
+    background: rgb(97, 150, 165);
 }
 
 
 
-.navbar_options{
-    display: inline-block;
-    margin-left: 100px;
-    
-
-}
 
 body {
-    background-image: url(IMG_4076.jpg);
+    background-image: url(https://i0.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1);
     background-attachment: fixed;
     background-size: contain;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-   
+    background-position: bottom center;
     
-    
+
+
   }
 
 h1{
-    color: white;
+    color: pink;
     font-weight: bold;
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 
 
 }
 
+
+
 h4{
-    color: white;
+    color:pink;
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif
-    
-    
+
+
 
 }
 
@@ -53,11 +95,50 @@ p{
 
 }
 
+#input{
+    padding: 10px;
+    width:40%;
+    border: radius 10px; 
+}
+#input_search{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
 
 .Adventure-Girls{
 
     width:290px;
     height:420px;
     border:2px dash blue;
-
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+    background-color: rgb(97, 150, 165);
+    
+}
+
+footer {
+    display: flex;  
+    justify-content: center;  
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  footer a {
+    margin: 5px;
+    text-decoration: none!important;
+  }
