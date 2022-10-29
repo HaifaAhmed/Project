@@ -124,11 +124,13 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 15px;
-    text-align: center;
-    margin-left: 20px;
+    padding-top: 80px;
+    padding-right: 80px;
+    margin-left: 200px;
     background-color: rgb(97, 150, 165);
-    
+      
 }
+
 
 footer {
     display: flex;  
