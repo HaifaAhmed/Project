@@ -104,9 +104,13 @@ p{
     display:flex;
     justify-content: center;
 }
-
-
-
+#submit{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:flex;
+    justify-content: center;
+    
+}
 
 
 .Adventure-Girls{
