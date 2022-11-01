@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <title>Project</title>
-    <link rel="stylesheet" href="./style.css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&family=Montserrat:ital,wght@0,200;0,600;1,200;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" /> 
+
     <script src="script.js"></script>"
+    <title>Project</title>
     <style>
-        h1{text-align: center;}
+
+
+h1{text-align: center;}
         h4{text-align: center;}
         p{text-align: center;}
     * {
@@ -38,7 +44,7 @@
         <nav> 
             <div class="logo">Adventure Girls</div>
             <div class="hamburger">
-                <div class ="line"></div>
+                <div class ="line"> </div>
                 <div class ="line"></div>
                 <div class ="line"></div>
                 
@@ -80,10 +86,6 @@
                 
                 </ul>
 
-
-
-
-
             </nav>
         </nav>
     </header>
@@ -102,7 +104,7 @@
 
 
                <h4>
-                We Bring You Adventure
+                We Bring You Adventure!
                </h4>
 
                <p>
@@ -112,7 +114,6 @@
                          Please checkout our 
                       destination guide and be sure 
                       to sign up to our newsletter!
-
 
                </p>
 
@@ -152,35 +153,84 @@
 
     <div>
         &emsp14;
+        <div Class="Card_container">
 
-        
-        <div class="row">
-              <div class="column">
-            <img class="Adventure-Girls" src="https://images.unsplash.com/photo-1500259783852-0ca9ce8a64dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Bravaria,Germany"/>
-            <div class=" card-body "></div>
-        
-         <h5 class=" card-title ">schönau am königssee Bravaria, Germany</h5>
+     
+
         </div>
-
-
-        <div class="column">
-            <img class="Adventure-Girls" src="https://images.unsplash.com/photo-1523345863760-5b7f3472d14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFidSUyMGRoYWJpJTIwZ3JhbmQlMjBtb3NxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt= "Sheikh Zayed Grand Mosque"/>
-            <div class=" card-body "></div>
-
-                <h5 class="card-title">Sheikh Zayed Grand Mosque, Abu Dhabi</h5>
+        <section class="cards">
+            <!--   card 1 -->
+              <article class="card">
+                <picture class="thumbnail">
+                     <img class="category__01" src="https://images.unsplash.com/photo-1500259783852-0ca9ce8a64dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Bravaria,Germany"
+                     alt="Girl on a rock"  />
+                </picture>
+                <div class="card-content">
+                  <p class="category category__01">Schönau am Königssee Bravaria, Germany</p>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti recusandae vel nobis nihil fuga quis, maxime voluptatem 
+             </h2>
+                  <h3>Read More</h3> 
+               </div>
+               
+               
+               <!-- .card-content -->
+                <footer>
+                  <div class="post-meta">
+                    <span class="timestamp"><i class="fa fa-clock-o"></i> 3 Hours ago</span>
+                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 14 comments</a></span>
+                    </div>
+                </footer>
+              </article>
+            <!--   card 2 -->
+              <article class="card">
+                <picture class="thumbnail">
+                     <img class="category__02"  src="https://images.unsplash.com/photo-1523345863760-5b7f3472d14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFidSUyMGRoYWJpJTIwZ3JhbmQlMjBtb3NxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt= "Sheikh Zayed Grand Mosque"/>
+                </picture>
+                <div class="card-content">
+                  <p class="category category__02">Sheikh Zayed Grand Mosque, Abu Dhabi</p>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti recusandae vel nobis nihil fuga quis, maxime voluptatem 
+                </h2>
+                     <h3>Read More</h3> 
+               </div><!-- .card-content -->
+                <footer>
+                  <div class="post-meta">
+                    <span class="timestamp"><i class="fa fa-clock-o"></i> 1 day ago</span>
+                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 11 comments</a></span>
+                    </div>
+                </footer>
+              </article>
+            <!--   card 3 -->
+              <article class="card">
+                <picture class="thumbnail">
+                     <img class="category__03" src="https://images.unsplash.com/photo-1593526998773-fc0df8c106c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Maldives"/>
+                </picture>
+                <div class="card-content">
+                  <p class="category category__03">Biyadhoo Island, Maldives</p>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti recusandae vel nobis nihil fuga quis, maxime voluptatem 
+                </h2>
+                     <h3>Read More</h3> 
+               </div><!-- .card-content -->
+                <footer>
+                  <div class="post-meta">
+                    <span class="timestamp"><i class="fa fa-clock-o"></i> 3 days ago</span>
+                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 15 comments</a></span>
+                    </div>
+                </footer>
+              </article>
+            
               
-
+              
+            </section>
+      
         </div>
 
 
-        <div class="column">
-            <img class="Adventure-Girls" src="https://images.unsplash.com/photo-1593526998773-fc0df8c106c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Maldives"/>
-            <div class=" card-body "></div>
 
-                <h5 class=" card-title ">Biyadhoo Island, Maldives</h5>
-        </div>
-
-    </div>
+          
+</body>
+</html>
+        
+     
 
 
     <footer>
