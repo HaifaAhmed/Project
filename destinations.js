@@ -48,7 +48,7 @@ else if (roulette == "no") {
       }
 
       else if (holidayType == "landmark") {
-        alert ("Iconic destinastions await! \rYou should check out New York, Jordan and Brazil!")
+        alert ("Iconic destinations await! \rYou should check out New York, Jordan and Brazil!")
       }
 
       else if (holidayType == "nature") {
