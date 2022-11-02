@@ -3,35 +3,35 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "Google Sans Regular";
+    font-family: 'Montserrat Alternates', sans-serif; 
     box-sizing: border-box;
 }
 header{
 
     width: 100%;
     height: 80px;
-    background-color: rgb(97, 150, 165);
+    background-color:white;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
 
 }
+
 .logo{
     font-size: 28px;
-    font-weight: bold;
-    color: white;
+    font-weight:bolder;
+    color: #0e9aa7 ;
 }
 
 .hamburger {
-    display: none;
-
+display:none;
 }
 .nav-bar ul {
     display:flex;
 }
 .nav-bar ul li a {
     display: block;
-    color: black;
+    color:black;
     font-size: 20px;
     padding: 10px 25px;
     border-radius: 50px;
@@ -42,56 +42,41 @@ header{
 
 .nav-bar ul li a:hover{
     color: black;
-    background: rgb(97, 150, 165);
+    background:rgb(97, 150, 165);
 }
 
 .nav-bar ul li a.active{
     color: black;
+    font-weight: bold;
     background: rgb(97, 150, 165);
 }
-
-
-
-
-body {
-    background-image: url(https://i0.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1);
-    background-attachment: fixed;
-    background-size: contain;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    
-
-
-  }
-
-h1{
-    color: pink;
-    font-weight: bold;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
-
-
+.social-tags {
+display: block;
+float: right;
+margin-top: 30px;
 }
 
+h1{
+    color: white; 
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif; 
+}
 
 
 h4{
-    color:pink;
+    color:white;
     font-weight: bold;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif
-
-
+    font-size: 30px;
+    font-family: 
 
 }
 
 p{
     color:white;
     font-weight: bold;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-size: 25px;
+    font-family:'Montserrat Alternates', sans-serif;
 
 }
 
@@ -103,48 +88,173 @@ p{
 #input_search{
     display:flex;
     justify-content: center;
+  
+  
 }
 #submit{
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display:flex;
-    justify-content: center;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display:flex;
+  justify-content: center;
+    
     
 }
-
 
 .Adventure-Girls{
-
     width:290px;
     height:420px;
-    border:2px blue;
-    margin-left: 50px;
-    display: flex;
+    margin-left: 20px;
+    align-items: center;
     justify-content: center;
     
 }
-
-.card-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 15px;
-    padding-top: 80px;
-    padding-right: 80px;
-    margin-left: 200px;
-    background-color: rgb(97, 150, 165);
-      
+#landing-home { 
+  background-image: url(https://i0.wp.com/grrip.eu/wp-content/uploads/2021/04/ocean.jpeg?fit=889%2C667&ssl=1);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.Home_box {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  opacity: .5;
+  padding: 20px;
+ 
 }
 
 
-footer {
-    display: flex;  
-    justify-content: center;  
-    background-color: white;
-    height: 100px;
-    padding: 20px;
-  }
-  
-  footer a {
-    margin: 5px;
-    text-decoration: none!important;
-  }
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+  font-family: 'Montserrat Alternates', sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #fefefe;
+}
+
+p {
+	margin-bottom: 1.5em;
+  color: #898989;
+}
+
+
+img {
+	display: block;
+	border: 0;
+  align-items: center;
+}
+
+
+.card {
+	background: #011f4b;
+	margin-bottom: 5rem;	
+  padding: 35px;
+}
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+	padding: 1.4rem;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}
+
+/* Flexbox stuff */
+
+.cards {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around
+
+}
+
+.card {
+	flex: 1;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #4b86b4;
+}
+.meet-box {
+  background-color:#63ace5;
+  color: #fff;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  float:left;
+
+}
+.meet-box2 {
+  background-color:#63ace5;
+  color: #fff;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  float:left;
+
+}
+
+.about-info {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  opacity: .5;
+  padding: 20px;
+
+}
+
+.about {
+  color:white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
