@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&family=Montserrat:ital,wght@0,200;0,600;1,200;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css" /> 
 
-    <script src="script.js"></script>"
+    <script src="script.js"></script>
     <title>Project</title>
     <style>
 
@@ -41,7 +41,26 @@ h1{text-align: center;}
 </head>
 <body>
     <header>
-        <nav> 
+
+      <div class="social-tags">
+        <a href="https://twitter.com" target="_blank">
+          <span class='social-icon'><i class="fab fa-twitter"></i></span>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <span class='social-icon'><i class="fab fa-instagram"></i></span>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+          <span class='social-icon'><i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://pinterest.com" target="_blank">
+          <span class='social-icon'><i class="fab fa-pinterest"></i></span>
+    </a>
+  </div>
+        
+  <nav> 
             <div class="logo">Adventure Girls</div>
             <div class="hamburger">
                 <div class ="line"> </div>
@@ -50,6 +69,9 @@ h1{text-align: center;}
                 
             </div>
         
+          
+        </nav>
+        </nav>
             <nav class = "nav-bar">
                 <ul>
                     <li>
@@ -85,155 +107,167 @@ h1{text-align: center;}
                 
                 
                 </ul>
-
+              
             </nav>
         </nav>
     </header>
       
-&emsp14;
 
-    <main>
+
+<div> <!-- Landing Image -->
+
+  <main id="landing-home">
         
 
         <article>
 
             <section>
                 <h1>
-                    TRAVEL THE WORLD 
+                    TRAVEL THE WORLD!
                 </h1>
+                <h4>
+                  We Bring You Adventure!
+                 </h4>
 
+              
+               <div class="wrapper">
+                
+                <div class="Home_box"> 
+                
+                  
+                 <P> Three saavy girls who have a 
+                  passion for nature, culture,history and adventure...</P>
+  
+                  <p> 
+                    Please checkout our 
+                    destination guide and be sure 
+                    to sign up to our newsletter!
 
-               <h4>
-                We Bring You Adventure!
-               </h4>
+                  </p>
+                  
+                  <div id="input_search">
+                    <input type="text" value="Name"/>
+                   
+                </div>
+                &nbsp;
+                <div id="input_search">
+                    <input type="text" value="Email"/>
+                </div>
+                &nbsp;
 
-               <p>
-                Three saavy girls who have a 
-                passion for nature, culture,history and adventure...
-               
-                         Please checkout our 
-                      destination guide and be sure 
-                      to sign up to our newsletter!
-
-               </p>
+                <div id="submit">
+                    <input type="btn" class = "btn" value = "Subscribe"/>
+                
+                  </div>
+                  
+                </div>
+          
+                      
 
             </section>
 
-            &ensp;
-
-
-        <div id="input_search">
-            <input type="text" value="Name"/>
-           
-        </div>
-        &nbsp;
-        <div id="input_search">
-            <input type="text" value="Email"/>
-        </div>
-         
-        <div id="submit" >
-            <input type="btn" class = "btn" value = "subscribe"/>
-        
-        </div>
-           
-
-    
-            
-            
-
-
-        &emsp14;
 
         </article>
-        &emsp14;
+    
     </main>
-    &emsp14;
+  </div>  <!-- Landing Image -->
 
+    <div><!-- blog posts -->
 
-
-    <div>
-        &emsp14;
-        <div Class="Card_container">
-
-     
-
-        </div>
-        <section class="cards">
-            <!--   card 1 -->
-              <article class="card">
-                <picture class="thumbnail">
-                     <img class="category__01" src="https://images.unsplash.com/photo-1500259783852-0ca9ce8a64dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Bravaria,Germany"
-                     alt="Girl on a rock"  />
-                </picture>
-                <div class="card-content">
-                  <p class="category category__01">Schönau am Königssee Bravaria, Germany</p>
-                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti recusandae vel nobis nihil fuga quis, maxime voluptatem 
-             </h2>
-                  <h3>Read More</h3> 
-               </div>
-               
-               
-               <!-- .card-content -->
-                <footer>
-                  <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 3 Hours ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 14 comments</a></span>
-                    </div>
-                </footer>
-              </article>
-            <!--   card 2 -->
-              <article class="card">
-                <picture class="thumbnail">
-                     <img class="category__02"  src="https://images.unsplash.com/photo-1523345863760-5b7f3472d14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFidSUyMGRoYWJpJTIwZ3JhbmQlMjBtb3NxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt= "Sheikh Zayed Grand Mosque"/>
-                </picture>
-                <div class="card-content">
-                  <p class="category category__02">Sheikh Zayed Grand Mosque, Abu Dhabi</p>
-                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti recusandae vel nobis nihil fuga quis, maxime voluptatem 
-                </h2>
-                     <h3>Read More</h3> 
-               </div><!-- .card-content -->
-                <footer>
-                  <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 1 day ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 11 comments</a></span>
-                    </div>
-                </footer>
-              </article>
-            <!--   card 3 -->
-              <article class="card">
-                <picture class="thumbnail">
-                     <img class="category__03" src="https://images.unsplash.com/photo-1593526998773-fc0df8c106c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Maldives"/>
-                </picture>
-                <div class="card-content">
-                  <p class="category category__03">Biyadhoo Island, Maldives</p>
-                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corrupti recusandae vel nobis nihil fuga quis, maxime voluptatem 
-                </h2>
-                     <h3>Read More</h3> 
-               </div><!-- .card-content -->
-                <footer>
-                  <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 3 days ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 15 comments</a></span>
-                    </div>
-                </footer>
-              </article>
-            
-              
-              
-            </section>
-      
-        </div>
-
-
-
-          
-</body>
-</html>
         
-     
+        <main class="blog-posts">
+    
+          <div class="centered">
+      
+              <section class="cards">
+                  
+                  <article class="card">
+                      <a href="#">
+                          <picture class="thumbnail">
+                              <img src="https://images.unsplash.com/photo-1500259783852-0ca9ce8a64dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Bravaria,Germany"
+                              alt="Girl on a rock"  />
+                          </picture>
+                          <div class="card-content">
+      
+                              <h2>Schönau am Königssee Bravaria, Germany</h2>
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum officiis fugiat volu
+                            </p>
+                            <h2>Read More</h2>
+                          </div
+                      </a>
+                    
+                  </article><!-- .card -->
+      
+                  <article class="card">
+                      <a href="#">
+                          <picture class="thumbnail">
+                              <img  src="https://images.unsplash.com/photo-1523345863760-5b7f3472d14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFidSUyMGRoYWJpJTIwZ3JhbmQlMjBtb3NxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt= "Sheikh Zayed Grand Mosque"/>
+                          </picture>
+                          <div class="card-content">
+                              <h2>Sheikh Zayed Grand Mosque, Abu Dhabi</h2>
+                              <p>orem ipsum dolor, sit amet consectetur adipisicing elit. Harum officiis fugiat volu</p>
+                              <h2>Read More</h2>
+                              
+                          </div><!-- .card-content -->
+                      </a>
+                  </article><!-- .card -->
+      
+                  <article class="card">
+                      <a href="#">
+                          <picture class="thumbnail">
+                              <img src="https://images.unsplash.com/photo-1593526998773-fc0df8c106c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Maldives"/>
+                          </picture>
+                          <div class="card-content">
+                              <h2>Biyadhoo Island, Maldives</h2>
+                              <p>orem ipsum dolor, sit amet consectetur adipisicing elit. Harum officiis fugiat volu</p>
+                              <h2>Read More</h2>
+                          </div><!-- .card-content -->
+                      </a>
+      
+                    </article><!-- .card -->
+      
+              </section><!-- .cards -->
+             
+          </div><!-- .centered -->
+<!-- blog posts -->
+  
 
 
-    <footer>
+
+
+
+<section><!-- About Start  -->
+
+       
+<div class="about-section">
+  <h1>About</h1>
+  <div class="wrapper">
+                
+    <div class="meet-box"> 
+
+          <h1>MEET THE ADventure </h1>
+          <h1>Girls!</h1>
+
+      </div><!-- box end  -->
+</div><!-- wrapper end  -->
+
+
+      <p>The Adventure Girls met during a coding course. As they learnt how to code they began to plot their global travels. The adventure girls was born, as was this blog as they traveled the world in search of adventure. 
+        Sarah, Haifa and Katherine each have their own personal interests. Sarah is the thrill seeker and loves all action activities. Haifa is all up for local culture & arts and Katherine loves to discover local nature spots as well exploring the local cuisines! 
+     </p>
+    
+     <p>We hope you enjoy this blog and we hope there is somehting for everyone's interests. We would like to visit as many destinations as we can over the next two years and would love to share our journey with you! Don't forget to subscribe!.</p>         
+
+</div>   
+</section>
+
+
+</main>   
+    
+
+
+
+    <footer><!-- Footer start -->
         <a href="https://twitter.com" target="_blank">
             <span class='social-icon'><i class="fab fa-twitter"></i></span>
           </a>
